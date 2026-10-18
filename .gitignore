@@ -1,0 +1,10 @@
+@'
+
+# Terraform state and saved plans
+*.tfstate
+*.tfstate.*
+tfplan
+tfplan.*
+*.tfplan
+**/.terraform/
+'@ | Add-Content .gitignore
